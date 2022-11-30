@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Registration form</title>
+</head>
+<body>
+    <head ></head>
+    <div class="relative bg-green-400 px-4 mt-5 pt-10 pb-8 shadow-x  ring-1 ring-gray-900/5 sm:mx-auto sm:rounded-lg sm:px-10 ">
+        <h1>Medico</h1>
+        <style>
+            h1 {color:cornsilk;
+                font-style:unset;
+                font-size: 50px;
+                font-weight: 700;
+            }
+          </style>
+        </div>
+    </div>
+</div>
+    <div class="relative flex min-h-screen flex-col jsutify-center overflow-hidden py-6 bg-gray-50 ">
+        <div class="relative bg-white px-6 pb-5 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
+            <div class="mx-auto max-w-md">
+                <h2 class="text-2xl  text-center font-bold my-5">
+                    Appointment
+                </h2>
+                <div class="divide-y  divide-gray-300/50">
+                    <div class="space-y-6 text-base leading-7 text-ray-600">
+                        <form action="" id="user_form">
+                            <label for="name" class="text-md w-40 inline-block font-medium leading-5 text-gray-700">
+                              
+                                Name
+                            </label>
+                            <input required type="text" id="name" name="name" class="bg-gray-100 inline-block rounded-lg shadow-md py-3 px-4 mb-5 text-base leading-6 placeolder-gray-500" placeholder="Enter full name" required><br/>
+                            <label for="email" class="text-md w-40 inline-block font-medium leading-3 text-gray-700">Email</label>
+                            <input required type="email" id="email" name="email" class="bg-gray-100 inline-block rounded-lg shadow-md py-3 px-4 mb-5 text-base leading-6 placeolder-gray-500" placeholder="Enter email"><br/>
+                           <label for="dob" class="text-md w-40 inline-block font-medium leading-5 text-gray-700" min="18" max="55">
+                                Date of Appointment
+                            </label>
+                            <input required type="date" id="dob" name="dob" class="bg-gray-100 inline-block rounded-lg shadow-md py-3 px-4 mb-5 text-base leading-6 placeolder-gray-500" placeholder="dd/mm/yyyy"><br/>
+                            <label for="state" class="text-md w-40 inline-block font-medium leading-5 text-gray-700">
+                              
+                                State
+                            </label>
+  <select name="state" id="state" class="form-control">
+    <option value="Andhra Pradesh">Andhra Pradesh</option>
+    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+    <option value="Assam">Assam</option>
+    <option value="Bihar">Bihar</option>
+    <option value="Chandigarh">Chandigarh</option>
+    <option value="Chhattisgarh">Chhattisgarh</option>
+    <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+    <option value="Daman and Diu">Daman and Diu</option>
+    <option value="Delhi">Delhi</option>
+    <option value="Lakshadweep">Lakshadweep</option>
+    <option value="Puducherry">Puducherry</option>
+    <option value="Goa">Goa</option>
+    <option value="Gujarat">Gujarat</option>
+    <option value="Haryana">Haryana</option>
+    <option value="Himachal Pradesh">Himachal Pradesh</option>
+    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+    <option value="Jharkhand">Jharkhand</option>
+    <option value="Karnataka">Karnataka</option>
+    <option value="Kerala">Kerala</option>
+    <option value="Madhya Pradesh">Madhya Pradesh</option>
+    <option value="Maharashtra">Maharashtra</option>
+    <option value="Manipur">Manipur</option>
+    <option value="Meghalaya">Meghalaya</option>
+    <option value="Mizoram">Mizoram</option>
+    <option value="Nagaland">Nagaland</option>
+    <option value="Odisha">Odisha</option>
+    <option value="Punjab">Punjab</option>
+    <option value="Rajasthan">Rajasthan</option>
+    <option value="Sikkim">Sikkim</option>
+    <option value="Tamil Nadu">Tamil Nadu</option>
+    <option value="Telangana">Telangana</option>
+    <option value="Tripura">Tripura</option>
+    <option value="Uttar Pradesh">Uttar Pradesh</option>
+    <option value="Uttarakhand">Uttarakhand</option>
+    <option value="West Bengal">West Bengal</option>
+  </select> <br/><br/>
+    
+  </section>
+                        <label for="acceptTerms" class="text-md w-50 inline-block font-medium leading-5 text-gray-700 mr-4">Accept our Terms & Conditions</label>
+                            <input required type="checkbox" name="acceptTerms" id="acceptTerms" class="bg-gray-100 inline-block shadow-md px-4 py-3 mb-5 text-base leading-6 placeholder-gray-500">
+                        <button type="submit" id="submit" class="w-fit rounded-lg shadow-lg px-5 py-3 bg-green-500 text-white hover:bg-green-400 focus:outline-none focus block">Submit</button>
+                        </form>
+
+                    </div>
+                    
+                </div>
+                
+            </div>
+       
+        </div>
+        
+   
+    <script src="index.js"></script>
+
+</body>
+
+<body>
+    <div class="relative flex min-h-screen flex-col jsutify-center overflow-hidden py-6 bg-gray-50 ">
+        <div class="relative bg-white px-6 pb-5 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
+            <div class="mx-auto max-w-md">
+                <h2 class="text-2xl  text-center font-medium my-5">
+                    Login here</h2>
+                <div>
+                    <a href="signin.html" target="_blank" style="color:blue; font-style: oblique; ">-Login-</a>
+                </div>
+                <h2 class="text-2xl  text-center font-medium my-5">
+                    Don't have an account?</h2>
+                <div>
+                    <a href="Register.html" target="_blank" style="color:blue; font-style:unset; ">-Signup-</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+
+</html>
